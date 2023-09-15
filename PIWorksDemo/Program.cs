@@ -22,15 +22,12 @@ using (var reader = new StreamReader(@"..\..\..\..\input.csv"))
 }
 
 var resultQ1 = PlaySongApp.GetClientCountByPerPlayCount(playSongList);
-
 Console.WriteLine(resultQ1);
 
 var resultQ2 = PlaySongApp.GetPlayCountPerClienID(playSongList, 346);
-
 Console.WriteLine(resultQ2);
 
 var resultQ3 = PlaySongApp.GetDistinctSongCount(playSongList);
-
 Console.WriteLine(resultQ3);
 
 //foreach (var playSong in playSongList)

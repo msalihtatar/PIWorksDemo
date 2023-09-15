@@ -37,7 +37,6 @@ namespace PIWorksDemo
                 return ex.Message;
             }
         }
-
         public static string GetPlayCountPerClienID(List<PlaySongModel> playSongList, int playCount)
         {
             try
@@ -59,7 +58,6 @@ namespace PIWorksDemo
                 return ex.Message;
             }
         }
-
         public static string GetDistinctSongCount(List<PlaySongModel> playSongList)
         {
             try
@@ -73,6 +71,5 @@ namespace PIWorksDemo
                 return ex.Message;
             }
         }
-
     }
 }
